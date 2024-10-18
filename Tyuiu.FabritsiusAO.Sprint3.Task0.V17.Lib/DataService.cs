@@ -11,7 +11,7 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task0.V17.Lib
             {
                 S = S + Math.Cos(i) * 0.5;
             }
-            return Math.Round(S,3);
+            return Math.Round(S, 3);
         }
     }
 }
