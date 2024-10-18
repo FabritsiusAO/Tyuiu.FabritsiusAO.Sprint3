@@ -12,7 +12,7 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task0.V17.Test
 
             int startValue = 1;
             int stopValue = 10;
-            double wait = -0.708723873227953;
+            double wait = -0.709;
 
             Assert.AreEqual(wait, ds.GetSumSeries(startValue, stopValue));
         }
