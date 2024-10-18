@@ -6,12 +6,11 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task1.V17.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double P = 0;
-            int k = startValue;
-            while(k <= 4)
+            double P = 1;
+            while(startValue <= stopValue)
             {
-                P = P + Math.Pow(2 / Math.Cos(value), k);
-                k++;
+                P = P * Math.Pow(2 / Math.Cos(value), startValue);
+                startValue++;
             }
             return Math.Round(P,3);
         }
