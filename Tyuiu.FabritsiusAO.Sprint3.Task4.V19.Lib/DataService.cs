@@ -17,7 +17,8 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task4.V19.Lib
 
                 else
                 {
-                    res = res * x / (Math.Cos(x) + x) + 0.5;
+                    double y = x / (Math.Cos(x) + x) + 0.5;
+                    res = res * y;
                 }
             }
             return Math.Round(res, 3);
