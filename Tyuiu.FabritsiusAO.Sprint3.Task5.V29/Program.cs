@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        DataService ds = new DataService();
+        DataService ds = new();
         int x = 2; int startValue1 = 1; int startValue2 = 1; int stopValue1 = 3; int stopValue2 = 10;
 
         Console.Title = "Спринт #3 | Выполнил: Фабрициус А. О. | ИСТНб-24-1";
@@ -29,6 +29,6 @@ class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine(ds.GetSumSumSeries(x,startValue1,startValue2,stopValue1,stopValue2));
-
+        Console.ReadLine();
     }
 }

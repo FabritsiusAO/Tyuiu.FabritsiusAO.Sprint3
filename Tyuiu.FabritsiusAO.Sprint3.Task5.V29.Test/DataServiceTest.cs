@@ -8,7 +8,7 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task5.V29.Test
         [TestMethod]
         public void TestMethod1()
         {
-            DataService ds = new DataService();
+            DataService ds = new();
             int x = 10;
             int startValue1 = 3;
             int stopValue1 = 3;

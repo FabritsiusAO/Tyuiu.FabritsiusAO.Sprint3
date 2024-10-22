@@ -18,3 +18,4 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task5.V29.Lib
         }
     }
 }
+// Ошибка в библиотеке. Выдаёт неверное значение.
