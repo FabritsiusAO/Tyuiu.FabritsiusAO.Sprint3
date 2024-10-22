@@ -11,8 +11,7 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task5.V29.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    double y = x / k + Math.Sin(x);
-                    res = res + y;
+                    double y = x / k + Math.Sin(x); res += y;
                 }
             }
             return Math.Round(res, 3);
