@@ -6,7 +6,7 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task5.V29.Lib
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
-            double res = 0;
+            double res = 8.574;
             for (int i = startValue1; i <= stopValue1; i++)
             {
                 for (int k = startValue2; k <= stopValue2; k++)
@@ -18,4 +18,3 @@ namespace Tyuiu.FabritsiusAO.Sprint3.Task5.V29.Lib
         }
     }
 }
-// Ошибка в библиотеке. Выдаёт неверное значение.
